@@ -1,0 +1,16 @@
+.pokecard {
+    overflow: hidden;
+    position: relative;
+}
+
+.pokecard:after {
+    content: "";
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    background: url('/pokeball.png');
+    background-size: cover;
+    opacity: .5;
+}
