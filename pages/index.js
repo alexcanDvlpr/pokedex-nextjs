@@ -7,9 +7,9 @@ export default function Home() {
       <Head>
         <title>Pokedex NextJs - Alex Cantón</title>
       </Head>
-      <div className="flex justify-center items-center bg-pokeball bg-center bg-no-repeat w-screen h-screen">
+      <div className="flex justify-center items-center bg-pokeball bg-center bg-no-repeat bg-cover w-screen h-screen">
         <Link href="/pokedex">
-          <a className="text-lg font-bold pl-6 hover:underline">
+          <a className="clickMe text-sm font-bold pl-6 hover:underline">
             Poke Click Me!
         </a>
         </Link>

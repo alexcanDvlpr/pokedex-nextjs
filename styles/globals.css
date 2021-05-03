@@ -22,8 +22,6 @@ body {
     -webkit-box-sizing: border-box;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
+.bg-white {
+    color: #fff;
 }

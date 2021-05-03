@@ -6,9 +6,9 @@ const Pokedex = ({ pokemons }) => {
 
     return (
         <Layout>
-            <h1 className="pt-7 text-5xl">Pokedex - Primera Generación</h1>
+            <h1 className="pt-4 text-2xl md:pt-7 md:text-5xl text-center">Pokedex - Primera Generación</h1>
             <hr />
-            <div className="grid-container">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-1 md:gap-3">
                 {
                     pokemons.map((pokemon, index) => (<PokeCard key={ pokemon.name } pokemon={ pokemon } index={ index } />))
                 }
